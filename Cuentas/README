@@ -1,0 +1,18 @@
+Programas Serie 5 
+ 
+ 
+a.	Una clase llamada “Cuenta” con las características mostradas en el diagrama UML:
+Cuenta
+- saldo : double
+
+<<constructor>>
++ Cuenta (saldoInicial : double)
+
+<<métodos>>
++ mostrarSaldo ( );
++ deposito (depo : double)
++ retiro (ret : double)
+Nota: El retiro debe estar condicionado a que la solicitud de efectivo NO sea mayor a la cantidad de saldo.
+
+b.	Una clase llamada “ProbarCuenta” que inicialice la cuenta con un saldo de 5000, que realice un depósito de 1500, luego un retiro de 3000 para mostrar en pantalla el siguiente resultado:
+ 
