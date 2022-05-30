@@ -1,0 +1,47 @@
+Programas Serie 4
+ 
+ 
+Desarrolla los siguientes programas: 
+A.	Una clase llamada “MyVelocity” con las siguientes características:
+MyVelocity
+- distancia : double
+- tiempo: doublé
+
+<<constructores>>
++ MyVelocity ( )      // valores iniciales = 10 (ambos)
++ MyVelocity (distancia : double,  tiempo: double)
+
+<<métodos>>
++ asignaTiempo(tiempo : double)
++ asignaDistancia(tiempo : double)
++ mostrarValores ( )
++ calcularVelocidad( ) : double
+
+B.	Una clase llamada “ImplementaMyVelocity” que realice lo siguiente:
+
+•	Genera dos instancias de tipo “MyVelocity”,
+•	Una se llamará “inicio” y usará el constructor default, la otra se llamara “fin” y usará el constructor con parámetros.
+•	Haz que muestre en pantalla los valores de ambas instancias.
+•	Cambia ambos valores de  la instancia “inicio”  a 10.
+•	Haz que muestre en pantalla de nuevo los valores de ambas instancias.
+•	Ahora que muestre en pantalla la velocidad de cada instancia (previamente calculada con el método creado para ello).
+•	Por último haz que muestre el promedio de las dos velocidades.
+Debe quedar algo parecido a la siguiente pantalla:
+ 
+
+ 
+C.	Crea una clase llamada “NumeroRacional” que tenga los siguientes elementos:
+ - Atributos:  
+Numerador  y Denominador.
+ - Métodos:  
+asignarDatos  (permitirá establecer el Numerador y el Denominador).   visualizarNumero  (permite  visualizar el número en forma de quebrado) sumarRacional (devuelve el número racional  resultante de sumar otros dos números pasados por argumentos).
+D.	Un programa de aplicación llamado “AplicaRacional” que ,utilizando los métodos definidos en la clase “NumeroRacional” realixce las siguientes actividades:
+1. Cree dos objetos de tipo NumeroRacional (r1 y r2)
+2. De valores de 2/5 al objeto r1.
+3.   Asigne el valor de r1 a r2.
+4. Visualice en pantalla los valores de r1 y r2.
+6. Reasigne los valores de r1 a 3/7
+7. Muestre en pantalla los valores de r1 y r2.
+8. Cree un tercer numero racional (r3) y cree de nuevo un numero llamado r2 (para desligarlo de r1).
+9. Asigne el valor de 2/5 a r2.
+10. Muestre en pantalla los siguiente: “La suma de los números r1 y r2 es: r3
