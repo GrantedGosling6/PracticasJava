@@ -1,0 +1,25 @@
+c.	Una clase llamada “Empleado” con las características mostradas en el diagrama UML:
+Empleado
+- nombre : String
+- sueldo : double
+- fechaNacimiento : String
+
+<<constructores>>
++ Empleado ( )   //Asigne los siguientes valores iniciales:
+//nombre  = “No tiene”
+//sueldo = 1000
+//18 de junio de 1990
++ Empleado(nombre String ,  sueldo : double)
++ Empleado(nombre String ,  sueldo: double ,  fechaNacimiento: String)
+<<métodos>>
++ asignaNombre (nombre : String)
++ asignaSueldo (sueldo : double)
++ asignaFecha (fechanacimiento : String)
+
+d.	Una clase llamada “ImplementaEmpleado” que genere tres empleados para operarlos de la siguiente forma:
+•	Al primero que lo genere con el constructor default.
+•	Al segundo que lo genere con el constructor de dos parámetros.
+•	Al tercero que lo genere con el constructor de tres parámetros.
+•	Que se muestren los datos de cada empleado en pantalla.
+•	Reasigna cada atributo de los tres empleados con los valores que quieras.
+•	De nuevo, que se muestren los datos de cada empleado en pantalla.
